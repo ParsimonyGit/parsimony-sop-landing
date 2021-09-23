@@ -2239,9 +2239,9 @@ ol {
 }
 
 .features .single-feature i {
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
   text-align: center;
   display: inline-block;
   background-color: #2f99a8;
@@ -2251,6 +2251,10 @@ ol {
   -webkit-box-shadow: 0px 4px 6px #0000002a;
           box-shadow: 0px 4px 6px #0000002a;
   margin-bottom: 30px;
+}
+
+.features .single-feature i::before {
+  font-size: 30px;
 }
 
 .features .single-feature h3 {
@@ -2295,9 +2299,9 @@ ol {
 }
 
 .benefits .single-benefit i {
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
   text-align: center;
   display: inline-block;
   background-color: #2f99a8;
@@ -2307,6 +2311,10 @@ ol {
   -webkit-box-shadow: 0px 4px 6px #0000002a;
           box-shadow: 0px 4px 6px #0000002a;
   margin-bottom: 30px;
+}
+
+.benefits .single-benefit i::before {
+  font-size: 30px;
 }
 
 .benefits .single-benefit h3 {
@@ -2371,6 +2379,10 @@ ol {
   text-transform: capitalize;
 }
 
+.connections .title-continue {
+  margin-top: 50px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .connections .title h2 {
     font-size: 24px;
@@ -2418,7 +2430,6 @@ ol {
   line-height: 50px;
   color: #fff;
   text-shadow: 0px 3px 8px #00000017;
-  text-transform: capitalize;
 }
 
 .testimonial-area .testimonial-content p {
@@ -2760,6 +2771,13 @@ ol {
   padding: 0px 50px;
 }
 
+.call-action .cta-content p .hyperlink:link,
+.call-action .cta-content p .hyperlink:visited,
+.call-action .cta-content p .hyperlink:hover,
+.call-action .cta-content p .hyperlink:active {
+  color: #fff;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .call-action .cta-content p {
     padding: 0;
@@ -2962,7 +2980,7 @@ ol {
 
 .footer .single-footer.f-about .copyright-text {
   color: #D2D6DC;
-  font-size: 14px;
+  font-size: 10px;
   margin-top: 40px;
 }
 
